@@ -7,5 +7,5 @@ entry_points:
     parameters:
       alpha: {type: float, default: 0.5}
       l1_ratio: {type: float, default: 0.1}
-      dataset : {type: string, default: "wine-quality.csv"}
+      dataset : {type: string, default: "wine_quality_preprocessing.csv"}
     command: "python modelling.py {alpha} {l1_ratio} {dataset}"
