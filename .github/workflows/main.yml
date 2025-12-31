@@ -9,10 +9,10 @@ on:
       - main
  
 env:
-  CSV_URL: "MLproject/wine-quality.csv"
+  CSV_URL: "MLproject/wine_quality_preprocessing.csv"
   TARGET_VAR: "quality"
   ALPHA: 0.5
-  L1_RATIO: 0.5
+  L1_RATIO: 0.1
   RANDOM_STATE: 42
  
 jobs:
